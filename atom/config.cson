@@ -10,3 +10,5 @@
     userId: "20dc8c60-9a4a-ae6a-17fe-f3203e596321"
   welcome:
     showOnStartup: false
+  linter: {}
+  "linter-pylama": {}
