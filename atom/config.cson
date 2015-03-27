@@ -1,0 +1,12 @@
+"*":
+  editor:
+    invisibles: {}
+  core:
+    themes: [
+      "unity-ui"
+      "one-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "20dc8c60-9a4a-ae6a-17fe-f3203e596321"
+  welcome:
+    showOnStartup: false
