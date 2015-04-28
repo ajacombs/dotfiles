@@ -1,5 +1,6 @@
 atom/storage
-atom/.apm/.apmrc
+atom/.apm
+atom/.apmrc
 atom/compile-cache
 atom/dev
 atom/.npm
