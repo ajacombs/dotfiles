@@ -3,7 +3,7 @@
   "linter-package": true,
   "activationEvents": [],
   "main": "./lib/init",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Lint python on the fly, using pylama",
   "repository": {
     "type": "git",
@@ -20,17 +20,17 @@
     "url": "https://github.com/AtomLinter/linter-pylama/issues"
   },
   "homepage": "https://github.com/AtomLinter/linter-pylama",
-  "_id": "linter-pylama@0.0.16",
-  "_shasum": "62b444bb3859bd7d801a88ba10257276765bd843",
-  "_resolved": "file:../d-115227-1690-9sv9m3/package.tgz",
-  "_from": "../d-115227-1690-9sv9m3/package.tgz",
+  "_id": "linter-pylama@0.0.17",
+  "_shasum": "6682f63b389bb97dd93c2f823aa6a7f2982c4e11",
+  "_resolved": "file:..\\d-115328-10256-1kb8dr8\\package.tgz",
+  "_from": "..\\d-115328-10256-1kb8dr8\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
     "extensions": {
       ".coffee": [
-        "lib/init.coffee",
-        "lib/linter-pylama.coffee"
+        "lib\\init.coffee",
+        "lib\\linter-pylama.coffee"
       ],
       ".json": [
         "package.json"

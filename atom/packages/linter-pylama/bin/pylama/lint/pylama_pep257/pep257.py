@@ -42,7 +42,7 @@ except NameError:  # Python 2.5 and earlier
                 return default
 
 
-__version__ = '0.3.3-alpha'
+__version__ = '0.3.2'
 __all__ = ('check', 'collect')
 
 
@@ -235,8 +235,6 @@ class Parser(object):
             sys.stderr.write(msg)
         self.consume(tk.OP)
         s = '('
-        while self.current.kind in (tk.NL, tk.COMMENT):
-            self.stream.move()
         if self.current.kind != tk.STRING:
             raise AllError('Could not evaluate contents of __all__. ')
         while self.current.value not in ')]':
